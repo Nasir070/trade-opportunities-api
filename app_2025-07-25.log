@@ -1,0 +1,47 @@
+2025-07-25 16:28:11,940 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 16:30:29,415 - app.main - INFO - Shutting down Trade Opportunities API
+2025-07-25 16:30:33,596 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 16:33:00,642 - app.main - INFO - Shutting down Trade Opportunities API
+2025-07-25 16:33:04,480 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 16:50:03,822 - app.api - INFO - Processing analysis request for sector: pharmaceuticals, ID: 27ff50fe
+2025-07-25 16:50:04,014 - app.data_collection - ERROR - Error fetching sector news: _get_url() https://duckduckgo.com DuckDuckGoSearchException: Ratelimit
+2025-07-25 16:50:04,103 - app.data_collection - ERROR - Error fetching market data: _get_url() https://duckduckgo.com DuckDuckGoSearchException: Ratelimit
+2025-07-25 16:53:28,401 - app.main - INFO - Shutting down Trade Opportunities API
+2025-07-25 16:53:31,705 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 16:53:34,369 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 16:53:37,248 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 16:53:40,213 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 16:53:43,426 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 16:53:46,623 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 16:53:49,240 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 16:53:52,019 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 16:53:54,799 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 16:53:57,631 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 16:57:09,319 - app.main - INFO - Shutting down Trade Opportunities API
+2025-07-25 16:57:12,398 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 16:57:15,293 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 16:57:18,158 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 17:00:19,435 - app.main - INFO - Shutting down Trade Opportunities API
+2025-07-25 17:00:22,421 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 17:00:26,088 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 17:01:15,665 - app.main - INFO - Shutting down Trade Opportunities API
+2025-07-25 17:10:25,107 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 17:14:52,282 - app.main - INFO - Shutting down Trade Opportunities API
+2025-07-25 17:18:09,911 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 17:20:30,706 - app.main - INFO - Shutting down Trade Opportunities API
+2025-07-25 17:21:04,317 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 17:26:57,731 - app.main - INFO - Shutting down Trade Opportunities API
+2025-07-25 17:35:23,365 - app.main - INFO - Starting Trade Opportunities API
+2025-07-25 17:39:04,118 - app.api - INFO - Processing analysis request for sector: technology, ID: 86f4245f
+2025-07-25 17:39:04,318 - app.data_collection - ERROR - Error fetching sector news: _get_url() https://duckduckgo.com DuckDuckGoSearchException: Ratelimit
+2025-07-25 17:39:04,401 - app.data_collection - ERROR - Error fetching market data: _get_url() https://duckduckgo.com DuckDuckGoSearchException: Ratelimit
+2025-07-25 17:39:04,401 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-25 17:39:19,201 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-25 17:39:19,203 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-25 17:41:40,275 - app.api - INFO - Processing analysis request for sector: renewable_energy, ID: 17bde8b6
+2025-07-25 17:41:40,433 - app.data_collection - ERROR - Error fetching sector news: _get_url() https://duckduckgo.com DuckDuckGoSearchException: Ratelimit
+2025-07-25 17:41:40,500 - app.data_collection - ERROR - Error fetching market data: _get_url() https://duckduckgo.com DuckDuckGoSearchException: Ratelimit
+2025-07-25 17:41:40,500 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-25 17:41:53,196 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-25 17:41:53,199 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-25 18:23:32,933 - app.main - INFO - Shutting down Trade Opportunities API
