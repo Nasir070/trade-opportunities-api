@@ -1,3 +1,6 @@
+# clone the Repository
+ git clone  https://github.com/Nasir070/trade-opportunities-api.git
+
 # Trade Opportunities API
 
 FastAPI service for analyzing Indian market sectors and providing AI-powered trade opportunity insights.
