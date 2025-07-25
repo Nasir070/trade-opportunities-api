@@ -38,41 +38,8 @@ trade-opportunities-api/
 ├── requirements.txt
 └── README.md
 
-# setup
-1. Create a virtual environment
-  venv\Scripts\activate
 
-2. Install dependencies
-  pip install -r requirements.txt
 
-3. Set Up Environment Variables
-   GEMINI_API_KEY=your_google_gemini_api_key_here
-    API_KEY=trade-api-key-2025
+<img width="2391" height="1131" alt="Screenshot 2025-07-25 190623" src="https://github.com/user-attachments/assets/31cd5f0c-bcdb-4e35-ba45-20d9b7138b85" />
+<img width="2280" height="1184" alt="Screenshot 2025-07-25 190649" src="https://github.com/user-attachments/assets/e075a060-1043-4cd1-bebb-b7e85371194f" />
 
-4. Start the FastAPI Development Server
-   uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
-
-   //The server will start at http://localhost:8000
-
-5. Access the API Documentation
-    Open your browser and go to:http://localhost:8000/docs(Interactive Swagger UI)
-
-6.  Authorize with Your API Key
-    In Swagger UI, click the Authorize button (key icon).
-
-    Enter your API key (from .env, default: trade-api-key-2025).
-
-    Click Authorize.
-7. Make an API Request
-   In the docs, expand the /api/v1/analyze/{sector} endpoint.
-
-    Click Try it out.
-
-    Type a valid sector (e.g., pharmaceuticals) in the sector field.
-    (Allowed sectors: pharmaceuticals, technology, agriculture, automotive, textiles, renewable_energy, banking, telecommunications, manufacturing)
-
-Click Execute.
-
-You will receive a markdown report as the API response
-
-```
